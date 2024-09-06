@@ -39,11 +39,17 @@ function App() {
       </Navbar>
 
       <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/menu' element={<Menu/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/' element={<Home />} />
+        <Route path='/menu' element={<Menu />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
+
+      <footer>
+        <div className='bg-body-tertiary' >
+          <p className='p-3 m-3 text-center' >copyright @  V Restaurant</p>
+        </div>
+      </footer>
 
     </div>
   );
