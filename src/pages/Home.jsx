@@ -5,6 +5,7 @@ import "./Home.css"
 import { ImageGallery } from '../components/ImageGallery';
 import { ContactInfo } from '../components/ContactInfo'
 import  ContactImage  from '../utils/img/contact-img.jpg'
+import AboutImg from '../utils/img/about-img.jpg'
 
 function Home() {
     return (
@@ -27,6 +28,10 @@ function Home() {
             </header>
             <div className='container my-5' >
                 <div className='row' >
+                    <div className='col-lg-6 d-flex justify-content-center d-none d-lg-flex'>
+                        <img src={AboutImg} className='img-fluid w-50' alt="about img" />
+
+                    </div>
                     <div className='col-lg-6 d-flex flex-column align-items-center justify-content-center' >
                         <h2 className='fs-1 fw-bold mb-5 text-uppercase' >About us</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, voluptate quasi saepe recusandae eos deleniti natus mollitia reprehenderit odio, earum sit cupiditate quam iure neque voluptates optio corrupti dicta. Nostrum.</p>
