@@ -1,5 +1,5 @@
 .home-page header {
-    background-image: url(../utils/img/header-img.jpg);
+    background-image: url(../utils/img/southIndian/header-img.jpg);
 }
 
 header {
@@ -13,11 +13,11 @@ header h1 {
 
 .home-page header h1,
 .home-page header h2 {
-    text-shadow: 2px 2px 8px #ffffff
+    /* text-shadow: 2px 2px 8px #ffffff */
 }
 
 .menu-section{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../utils/img/menu-img.jpg) ;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../utils/img/southIndian/menu-img.jpg) ;
     background-size: cover;
     background-position: center;
     

@@ -5,7 +5,7 @@ import "./Home.css"
 import { ImageGallery } from '../components/ImageGallery';
 import { ContactInfo } from '../components/ContactInfo'
 import  ContactImage  from '../utils/img/contact-img.jpg'
-import AboutImg from '../utils/img/about-img.jpg'
+import AboutImg from '../utils/img/southIndian/about-img.jpg'
 
 function Home() {
     return (
@@ -14,11 +14,11 @@ function Home() {
                 <div className='container' >
                     <div className='row' >
                         <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center' >
-                            <h2 className='mb-2 text-black fw-bold' >
+                            <h2 className='mb-2 text-white fw-bold' >
                                 welcome To
                             </h2>
-                            <h1 className='mb-0 text-black fw-bold text-center text-sm-start' >V</h1>
-                            <h1 className='mb-5 text-black fw-bold text-center text-sm-start' >
+                            <h1 className='mb-0 text-white fw-bold text-center text-sm-start' >V</h1>
+                            <h1 className='mb-5 text-white fw-bold text-center text-sm-start' >
                                 Restaurant
                             </h1>
                             <Menubtn />
@@ -47,36 +47,36 @@ function Home() {
                     <h2 className='fs-1 mb-5 text-uppercase fw-bold' >Our Favorites</h2>
                     <div className='row mb-5 w-100' >
                         <div className='col-lg-6 d-flex flex-column align-items-center mb-5 mb-lg-0' >
-                            <h3 className='fs-2 mb-5 ' >Food</h3>
+                            <h3 className='fs-2 mb-5 text-warning ' >Food</h3>
                             <ul className='px-0' >
                                 <li className='d-flex justify-content-between' >
-                                    <p className='fs-2 mx-2' > Briyani </p>
-                                    <p className='fs-3 mx-2 text-success fw-bold' > ₹250 </p>
+                                    <p className='fs-2 mx-2 text-warning fw-bold' > Briyani </p>
+                                    <p className='fs-3 mx-2 text-warning' > ₹250 </p>
                                 </li>
                                 <li className='d-flex justify-content-between' >
-                                    <p className='fs-2 mx-2' >Breads</p>
-                                    <p className='fs-2 mx-2 text-success fw-bold' >₹30</p>
+                                    <p className='fs-2 mx-2 text-warning fw-bold' >Breads</p>
+                                    <p className='fs-2 mx-2 text-warning' >₹30</p>
                                 </li>
                                 <li className='d-flex justify-content-center' >
-                                    <p className='fs-3 mx-2' >Tanduri</p>
-                                    <p className='fs-3 mx-2 text-success fw-bold' >₹300</p>
+                                    <p className='fs-3 mx-2 text-warning fw-bold' >Tanduri</p>
+                                    <p className='fs-3 mx-2 text-warning' >₹300</p>
                                 </li>
                             </ul>
                         </div>
                         <div className='col-lg-6 d-flex flex-column align-items-center mb-5 mb-lg-0' >
-                            <h3 className='fs-2 mb-5' >Drinks</h3>
+                            <h3 className='fs-2 mb-5 text-warning' >Drinks</h3>
                             <ul className='px-0' >
                                 <li className='d-flex justify-content-between' >
-                                    <p className='fs-2 mx-2' >Lemon</p>
-                                    <p className='fs-2 mx-2 text-success fw-bold' >₹20</p>
+                                    <p className='fs-2 mx-2 text-warning fw-bold' >Lemon</p>
+                                    <p className='fs-2 mx-2 text-warning  ' >₹20</p>
                                 </li>
                                 <li className='d-flex justify-content-between' >
-                                    <p className='mx-0 fs-2' >Apple</p>
-                                    <p className='fs-2 mx-0 text-success fw-bold'>₹30</p>
+                                    <p className='mx-0 fs-2 text-warning fw-bold' >Apple</p>
+                                    <p className='fs-2 mx-0 text-warning'>₹30</p>
                                 </li>
                                 <li className='d-flex justify-content-between' >
-                                    <p className='fs-2 mx-0' >Orange</p>
-                                    <p className='fs-2 mx-0 text-success fw-bold' >₹25</p>
+                                    <p className='fs-2 mx-0 text-warning fw-bold' >Orange</p>
+                                    <p className='fs-2 mx-0 text-warning' >₹25</p>
                                 </li>
                             </ul>
                         </div>
